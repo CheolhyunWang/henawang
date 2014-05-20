@@ -1,0 +1,19 @@
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		int nId = v.getId();
+		
+		switch(nId) {
+		case R.id.button_login :
+			//changeActivity(Constant.MAIN_TOP);
+			//TcloudLoungeApplication.mDataManager.TCL_getLoungeList(new LoungeListRequestModel(10, 1));
+			//TcloudLoungeApplication.mDataManager.TCL_getFeedList(new FeedListRequestModel(0, 10, 1));
+			//TcloudLoungeApplication.mDataManager.TCL_getCommentList(new CommentListRequestModel(0, 0, 10, 1));
+			TcloudLoungeApplication.mDataManager.TCL_getLoungeMemberInfo(0);
+			//TcloudLoungeApplication.mDataManager.TCL_getSettings();
+			break;
+		}
+	}
+	
+
+Done
